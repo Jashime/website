@@ -99,6 +99,6 @@ gulp.task('default:dev',['script:dev','style:dev'],function(){
         open:false
     })
     gulp.watch('./script/**/*.js',['scrpt:dev'])//watch只需要放在开发环境
-    gulp.watch('./style/**/*.scss',['style:dev'])
+    gulp.watch('./style/**/*.scss',['style:dev'])//watch只需要放在开发环境
 })
 
